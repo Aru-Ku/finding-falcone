@@ -1,0 +1,10 @@
+export { default as Donlon } from "./Donlon.jpg";
+export { default as Enchai } from "./Enchai.jpg";
+export { default as Jebing } from "./Jebing.jpg";
+export { default as Lerbin } from "./Lerbin.jpg";
+export { default as Pingasor } from "./Pingasor.jpg";
+export { default as Sapir } from "./Sapir.jpg";
+export { default as Pod } from "./Pod.jpg";
+export { default as Rocket } from "./Rocket.jpg";
+export { default as Ship } from "./Ship.jpg";
+export { default as Shuttle } from "./Shuttle.jpg";

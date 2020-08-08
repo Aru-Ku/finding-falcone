@@ -1,0 +1,122 @@
+.wrapper {
+	padding: 0 12%;
+	position: relative;
+}
+
+.wrapper h2 {
+	font-weight: 500;
+}
+
+.statement {
+	font-size: 1.35rem;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.planetsWrapper h3,
+.vehiclesWrapper h3 {
+	text-align: center;
+	font-size: 1.29rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.planetsList,
+.vehiclesList {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: baseline;
+	min-height: 160px;
+}
+
+.planet {
+	min-width: 120px;
+	text-align: center;
+}
+
+.planet img {
+	width: 100px;
+}
+
+.planet p:first-of-type {
+	font-size: 1.15rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.planet p:last-of-type {
+	font-size: 1rem;
+	margin: 0;
+	font-style: italic;
+}
+
+.vehicle {
+	min-width: 100px;
+	text-align: center;
+}
+
+.vehicle img {
+	width: 60px;
+	padding-bottom: 15px;
+}
+
+.vehicle p:first-of-type {
+	font-size: 1.15rem;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	margin-bottom: 10;
+}
+
+.vehicle p {
+	font-size: 1rem;
+	margin: 0;
+	font-style: italic;
+}
+
+.buttonWrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper a {
+	margin: 0 auto;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #38b69c;
+	transition: all 0.3s cubic-bezier(1, 0.12, 0, 0.74);
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.wrapper a::after {
+	font-family: "fontawesome";
+	content: "\f01d";
+	font-weight: 100;
+	padding-left: 5px;
+}
+
+@media screen and (max-width: 659px) {
+	.wrapper {
+		padding: 0 15px;
+	}
+	.statement {
+		font-size: 1.1rem;
+	}
+	.wrapper a {
+		font-size: 1.1rem;
+		display: block;
+	}
+}

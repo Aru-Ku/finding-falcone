@@ -1,0 +1,46 @@
+.navbar {
+	width: 80%;
+	margin: 0 auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.1s linear;
+}
+
+.navbarWrapper {
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.navbar h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding: 0;
+}
+
+.links a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.links a::after {
+	margin-right: 20px;
+	padding-left: 5px;
+	font-family: "fontawesome";
+	content: "\f08e";
+}
+
+@media screen and (max-width: 659px) {
+	.navbar {
+		width: 100%;
+		transition: all 0.1s linear;
+	}
+	.navbar h2 {
+		font-size: 1.25rem;
+		margin-left: 10px;
+	}
+	.links {
+		font-size: 1rem;
+	}
+}
