@@ -1,44 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Finding Falcone
 
-## Available Scripts
+This project is a solution for [GeekTrust](https://www.geektrust.in/) FrontEnd Space Challenge. More details about challenge can be found [here](https://www.geektrust.in/coding-problem/frontend/space).
 
-In the project directory, you can run:
+> My first project in TypeScript React
 
-### `yarn start`
+## Problem Statement
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Our problem is set in the planet of Lengabur in the distant distant galaxy of Tara B. After the recent war with neighbouring planet Falicornia, **King Shan** has exiled the Queen of Falicornia for 15 years. **Queen Al Falcone** is now in hiding. But if King Shan can find her before the years are up, she will be exiled for another 15 years.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+King Shan has received intelligence that Al Falcone is hiding in one of six neighbouring planets. In this problem you need to build a UI through which King Shan can choose the planets to search, and the vehicles to use in Finding Falcone.
 
-### `yarn test`
+### [Link to the solution](https://finding-falcone-gt.netlify.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Finding Falcone Banner](./finding-falcone-banner.gif)
 
-### `yarn build`
+## Scripts
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> In this project, [yarn](https://yarnpkg.com/) is used. If [npm](https://www.npmjs.com/package/npm) is being used, first delete [yarn lock file](/yarn.lock) before installing dependencies.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+|                            | [yarn](https://yarnpkg.com/) | [npm](https://www.npmjs.com/package/npm) |                                                        |
+| -------------------------- | ---------------------------- | ---------------------------------------- | ------------------------------------------------------ |
+| Installing Dependencies    | `yarn`                       | `npm install`                            |                                                        |
+| To run in development mode | `yarn start`                 | `npm start`                              | & open [http://localhost:3000](http://localhost:3000)  |
+| For production build       | `yarn build`                 | `npm build`                              | & run use [serve](https://www.npmjs.com/package/serve) |
