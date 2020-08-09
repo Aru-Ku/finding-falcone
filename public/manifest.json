@@ -1,6 +1,7 @@
 {
 	"short_name": "Finding Falcone",
-	"name": "Solution for Finding Falcone Problem by GeekTrust",
+	"name": "Finding Falcone",
+	"description": "Solution for Finding Falcone Problem by GeekTrust",
 	"icons": [
 		{
 			"src": "favicon.ico",
