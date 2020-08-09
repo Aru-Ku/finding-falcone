@@ -92,8 +92,8 @@
 	text-align: center;
 	font-size: 1.15rem;
 	font-weight: 600;
-	color: #ffffff;
-	background-color: #38b69c;
+	color: #000000;
+	background-color: #00a986;
 	transition: all 0.3s cubic-bezier(1, 0.12, 0, 0.74);
 	border: none;
 	outline: none;
