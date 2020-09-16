@@ -15,7 +15,7 @@ const App = (): JSX.Element => {
 		<div className='wrapper'>
 			<Header />
 			<StoreProvider>
-				<Router>
+				<Router basename="finding-falcone">
 					<Switch>
 						<Route exact path='/404' component={Page404} />
 						<Route exact path='/solve' component={Solve} />
