@@ -11,7 +11,7 @@ export default function Page404(): JSX.Element {
 					<h3>The page you are looking for does not exist.</h3>
 					<button
 						onClick={() => {
-							window.location.pathname = "/";
+							window.location.pathname = `${process.env.PUBLIC_URL}`;
 						}}>
 						Go to Home
 					</button>

@@ -15,13 +15,13 @@ const App = (): JSX.Element => {
 		<div className='wrapper'>
 			<Header />
 			<StoreProvider>
-				<Router basename="finding-falcone">
+				<Router>
 					<Switch>
-						<Route exact path='/404' component={Page404} />
-						<Route exact path='/solve' component={Solve} />
-						<Route exact path='/solution' component={Solution} />
-						<Route exact path='/' component={Problem} />
-						<Redirect to='/404' />
+						<Route exact path={`${process.env.PUBLIC_URL}/solve`} component={Solve} />
+						<Route exact path={`${process.env.PUBLIC_URL}/solution`} component={Solution} />
+						<Route exact path={`${process.env.PUBLIC_URL}/404`} component={Page404} />
+						<Route exact path={`${process.env.PUBLIC_URL}/`} component={Problem} />
+						<Redirect to={`${process.env.PUBLIC_URL}/404`} />
 					</Switch>
 				</Router>
 			</StoreProvider>

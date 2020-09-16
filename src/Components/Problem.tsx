@@ -41,7 +41,7 @@ const Problem: React.FC = (): JSX.Element => {
 				to build a UI through which King Shan can choose the planets to search, and the vehicles to use in Finding Falcone.
 			</p>
 			<div className={styles.buttonWrapper}>
-				<Link to='/solve'>Help King Shan to find the Queen</Link>
+				<Link to={`${process.env.PUBLIC_URL}/solve`}>Help King Shan to find the Queen</Link>
 			</div>
 			<Loader loading={loading} />
 			<hr />
