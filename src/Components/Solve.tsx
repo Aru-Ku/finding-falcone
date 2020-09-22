@@ -161,7 +161,7 @@ const Solve = (): JSX.Element => {
 				})
 				.catch((e) => (result = { error: e })); // Carry Error to next Page
 			history.push({
-				pathname: "/solution",
+				pathname: `${process.env.PUBLIC_URL}/solution`,
 				state: { planet_names, vehicle_names, result, time: totalTime }, // Carry Fields to Next Page
 			});
 		},
@@ -196,12 +196,7 @@ const Solve = (): JSX.Element => {
 									/>
 									{f.selected && <img src={SelectImage(f.planet)} alt={f.planet} loading='lazy' />}
 									{f.selected && (
-										<SelectVehicle
-											wrapperClass={styles.wrapper}
-											selectClass={styles.select}
-											onChange={handlers.changeVehicle}
-											fly={f}
-										/>
+										<SelectVehicle wrapperClass={styles.wrapper} selectClass={styles.select} onChange={handlers.changeVehicle} fly={f} />
 									)}
 									{f.vehicle !== "Vehicle" && "Time Taken: " + f.time}
 									{f.vehicle !== "Vehicle" && <img src={SelectImage(f.vehicle)} alt={f.vehicle} loading='lazy' />}

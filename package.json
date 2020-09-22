@@ -2,7 +2,7 @@
 	"name": "finding-falcone",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "/finding-falcone/",
+	"homepage": "/finding-falcone",
 	"dependencies": {
 		"@loadable/component": "^5.13.1",
 		"@types/loadable__component": "^5.13.0",
