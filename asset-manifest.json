@@ -1,0 +1,41 @@
+{
+  "files": {
+    "static/js/0.e9b7dfdc.chunk.js": "/finding-falcone/static/js/0.e9b7dfdc.chunk.js",
+    "main.css": "/finding-falcone/static/css/main.03b2a641.chunk.css",
+    "main.js": "/finding-falcone/static/js/main.30507039.chunk.js",
+    "runtime-main.js": "/finding-falcone/static/js/runtime-main.34523697.js",
+    "static/js/3.a9cc459e.chunk.js": "/finding-falcone/static/js/3.a9cc459e.chunk.js",
+    "static/css/4.2e72d45f.chunk.css": "/finding-falcone/static/css/4.2e72d45f.chunk.css",
+    "static/js/4.0613e0e0.chunk.js": "/finding-falcone/static/js/4.0613e0e0.chunk.js",
+    "static/css/5.80fdaf59.chunk.css": "/finding-falcone/static/css/5.80fdaf59.chunk.css",
+    "static/js/5.762f8795.chunk.js": "/finding-falcone/static/js/5.762f8795.chunk.js",
+    "static/css/6.b8a68066.chunk.css": "/finding-falcone/static/css/6.b8a68066.chunk.css",
+    "static/js/6.156c2278.chunk.js": "/finding-falcone/static/js/6.156c2278.chunk.js",
+    "static/css/7.f7e4fbc3.chunk.css": "/finding-falcone/static/css/7.f7e4fbc3.chunk.css",
+    "static/js/7.7ff63ff7.chunk.js": "/finding-falcone/static/js/7.7ff63ff7.chunk.js",
+    "static/css/8.3ea28356.chunk.css": "/finding-falcone/static/css/8.3ea28356.chunk.css",
+    "static/js/8.8912ae1b.chunk.js": "/finding-falcone/static/js/8.8912ae1b.chunk.js",
+    "static/css/9.a85715a4.chunk.css": "/finding-falcone/static/css/9.a85715a4.chunk.css",
+    "static/js/9.a9a86f41.chunk.js": "/finding-falcone/static/js/9.a9a86f41.chunk.js",
+    "index.html": "/finding-falcone/index.html",
+    "precache-manifest.d0f67dbc8a84c78cd0234eafa813725e.js": "/finding-falcone/precache-manifest.d0f67dbc8a84c78cd0234eafa813725e.js",
+    "service-worker.js": "/finding-falcone/service-worker.js",
+    "static/js/3.a9cc459e.chunk.js.LICENSE.txt": "/finding-falcone/static/js/3.a9cc459e.chunk.js.LICENSE.txt",
+    "static/media/Donlon.webp": "/finding-falcone/static/media/Donlon.e3a255ea.webp",
+    "static/media/Enchai.webp": "/finding-falcone/static/media/Enchai.6e5c5963.webp",
+    "static/media/Jebing.webp": "/finding-falcone/static/media/Jebing.b52dfb12.webp",
+    "static/media/Lerbin.webp": "/finding-falcone/static/media/Lerbin.b1c644ef.webp",
+    "static/media/Pingasor.webp": "/finding-falcone/static/media/Pingasor.ce8716c6.webp",
+    "static/media/Pod.webp": "/finding-falcone/static/media/Pod.9934ceb3.webp",
+    "static/media/Rocket.webp": "/finding-falcone/static/media/Rocket.a3a11341.webp",
+    "static/media/Sapir.webp": "/finding-falcone/static/media/Sapir.67a3933f.webp",
+    "static/media/Ship.webp": "/finding-falcone/static/media/Ship.c8bc9eb7.webp",
+    "static/media/Shuttle.webp": "/finding-falcone/static/media/Shuttle.146b257a.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34523697.js",
+    "static/js/3.a9cc459e.chunk.js",
+    "static/css/main.03b2a641.chunk.css",
+    "static/js/main.30507039.chunk.js"
+  ]
+}
