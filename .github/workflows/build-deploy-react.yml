@@ -34,6 +34,8 @@ jobs:
       with:
         name: production-files
         path: ./build
+    - name: Check Files
+      run: ls -al
   
   deploy:
     name: Deploy
